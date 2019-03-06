@@ -100,8 +100,7 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 alias zshconfig="nvim ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-#
+alias vim=nvim
 
 export DEVKITPRO=/opt/devkitpro
 export DEVKITA64=/opt/devkitpro/devkitA64
