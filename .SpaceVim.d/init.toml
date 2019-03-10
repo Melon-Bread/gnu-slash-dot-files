@@ -57,6 +57,9 @@ name = "lang#c"
 name = "lang#java"
 
 [[layers]]
+name = "lang#html"
+
+[[layers]]
 name = "lang#markdown"
 
 [[layers]]
