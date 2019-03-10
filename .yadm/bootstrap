@@ -3,7 +3,7 @@
 
 # Install Programs
 echo "~Installing Programs~"
-sudo pacman -S curl git neofetch neovim python python-pip zsh --noconfirm
+sudo pacman -S curl git mosh neofetch neovim python python-neovim python-pip zsh --noconfirm
 
 
 # Install SpaceVim (via https://spacevim.org/quick-start-guide/)
