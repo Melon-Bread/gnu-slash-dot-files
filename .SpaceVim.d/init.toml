@@ -75,3 +75,6 @@ name = "lang#luai"
 
 [[custom_plugins]]
 name = "anned20/vimsence"
+
+[[custom_plugins]]
+name = "ambv/black"
