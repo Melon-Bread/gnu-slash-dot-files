@@ -66,8 +66,10 @@ plugins=(
   archlinux
   docker
   git
+  mosh
   python
   tmux
+  virtualenv
   zsh-autosuggestions
   zsh-syntax-highlighting
   history-substring-search
