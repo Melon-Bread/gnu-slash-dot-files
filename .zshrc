@@ -67,9 +67,11 @@ plugins=(
   docker
   git
   python
+  tmux
   zsh-autosuggestions
   zsh-syntax-highlighting
   history-substring-search
+  yadm-zsh
 )
 source $ZSH/oh-my-zsh.sh
 

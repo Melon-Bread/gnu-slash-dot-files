@@ -33,6 +33,9 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # zsh-history-subsearch-search
 git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
 
+# yadm-zsh
+git clone https://github.com/juanrgon/yadm-zsh ${ZSH_CUSTOM:-~/.oh-my-zsh/custom/}/plugins/yadm-zsh
+
 # Reclaiming our zsh config
 echo "~Setting backup as main config~"
 mv ~/.zshrc.pre-oh-my-zsh ~/.zshrc
