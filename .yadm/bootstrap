@@ -33,5 +33,13 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # zsh-history-subsearch-search
 git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
 
+# Reclaiming our zsh config
+echo "~Setting backup as main config~"
+mv ~/.zshrc.pre-oh-my-zsh ~/.zshrc
+
+# Set zsh as main shell
+echo "~Setting ZSH as user shell~"
+chsh -s /usr/bin/zsh
+
 # Refresh changes
 source ~/.zshrc
