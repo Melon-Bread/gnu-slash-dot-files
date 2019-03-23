@@ -3,7 +3,8 @@
 
 # Install Programs
 echo "~Installing Programs~"
-sudo pacman -S --needed curl git lsd mosh neofetch neovim python python-black python-neovim python-pip tmux zathura zathura-cb zathura-pdf-mupdf zathura-ps zsh --noconfirm
+sudo pacman -S --needed curl git lsd mosh neofetch neovim python python-black python-neovim python-pip \
+                          tmux zathura zathura-cb zathura-pdf-mupdf zathura-ps zsh --noconfirm
 
 # Install yay for the AUR
 echo "~Installing yay~"
