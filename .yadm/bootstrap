@@ -5,6 +5,13 @@
 echo "~Installing Programs~"
 sudo pacman -S curl git lsd mosh neofetch neovim python python-black python-neovim python-pip tmux zsh --noconfirm
 
+# Install yay for the AUR
+echo "~Installing yay~"
+git clone https://aur.archlinux.org/yay.git
+cd yay/
+makepkg -si
+cd ..
+rm -rf yay/
 
 # Install SpaceVim (via https://spacevim.org/quick-start-guide/)
 echo "~Installing SpaceVim~"
