@@ -50,6 +50,9 @@ name = "git"
 name = "sudo"
 
 [[layers]]
+name = "lsp"
+
+[[layers]]
 name = "lang#python"
 
 [[layers]]
@@ -78,3 +81,6 @@ name = "anned20/vimsence"
 
 [[custom_plugins]]
 name = "ambv/black"
+
+[[custom_plugins]]
+name = "hashivim/vim-vagrant"
