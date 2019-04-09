@@ -14,6 +14,10 @@ makepkg -si
 cd ..
 rm -rf yay/
 
+# Setup Java enviorment
+yay -S gradle jdk jdtls --noconfirm --sudoloop
+sudo archlinux-java set java-12-jdk
+
 # Install SpaceVim (via https://spacevim.org/quick-start-guide/)
 echo "~Installing SpaceVim~"
 curl -sLf https://spacevim.org/install.sh | bash
