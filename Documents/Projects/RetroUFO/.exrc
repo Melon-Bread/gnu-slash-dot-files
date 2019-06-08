@@ -1,9 +1,0 @@
-set ai
-set colums=120
-set ignorecase
-set number
-set report=1
-set noruler
-set shiftwidth=4
-set showmatch
-set tabstop=4
