@@ -119,3 +119,7 @@ export PATH="$PATH:$HOME/.bin/"
 export PATH="$PATH:$HOME/.local/bin"
 export PATH="$HOME/.node_modules/bin:$PATH"
 neofetch
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/melon/.sdkman"
+[[ -s "/home/melon/.sdkman/bin/sdkman-init.sh" ]] && source "/home/melon/.sdkman/bin/sdkman-init.sh"
