@@ -56,6 +56,9 @@ name = "lsp"
 name = "lang#python"
 
 [[layers]]
+name = "lang#ipynb"
+
+[[layers]]
 name = "lang#c"
 
 [[layers]]
@@ -69,6 +72,7 @@ name = "lang#markdown"
 
 [[layers]]
 name = "lang#rust"
+recommended-style = "enabled"
 
 [[layers]]
 name = "lang#sh"
