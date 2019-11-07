@@ -1,0 +1,31 @@
+#
+# Executes commands at the start of an interactive session.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
+
+# Source Prezto.
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
+
+# Customize to your needs...
+alias zshconfig="nvim ~/.zshrc"
+alias vim=nvim
+alias ls=lsd
+
+export DEVKITPRO=/opt/devkitpro
+export DEVKITA64=/opt/devkitpro/devkitA64
+export DEVKITARM=/opt/devkitpro/devkitARM
+export DEVKITPPC=/opt/devkitpro/devkitPPC
+
+export npm_config_prefix=~/.node_modules
+
+export PATH="$PATH:$HOME/go/bin"
+export PATH="$PATH:$HOME/.bin/"
+export PATH="$PATH:$HOME/.local/bin"
+export PATH="$HOME/.node_modules/bin:$PATH"
+export IDF_PATH="~/Documents/esp-idf-v3.1-odroid"
+export PATH="$PATH:$HOME/Documents/xtensa-esp32-elf/bin:$HOME/Documents/xtensa-esp32-elf/bin"
+neofetch
