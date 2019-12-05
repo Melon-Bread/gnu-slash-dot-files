@@ -10,6 +10,9 @@ git_repos = [
 # List of remote machines with Topgrade installed on them
 #remote_topgrades = ["toothless", "pi", "parnas"]
 
+no_retry = true
+yay_arguments = "--noconfirm"
+
 # Arguments to pass SSH when upgrading remote systems
 #ssh_arguments = "-o ConnectTimeout=2"
 
@@ -27,3 +30,5 @@ git_arguments = "--rebase --autostash"
 #"Python Environment" = "~/dev/.env/bin/pip install -i https://pypi.python.org/simple -U --upgrade-strategy eager jupyter"
 [commands]
 "RetroArch" = "RA-Update.sh"
+
+cleanup = true
