@@ -1,0 +1,11 @@
+-o "./%(title)s.%(ext)s"
+
+
+# Subtitles
+--all-subs
+# --write-subs en
+--embed-subs
+
+# Meta
+#--embed-thumbnail
+--add-metadata
