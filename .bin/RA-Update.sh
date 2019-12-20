@@ -4,7 +4,7 @@ echo 'Updating RetroArch...'
 yay -S retroarch-git --noconfirm
 
 echo 'Updating Cores....'
-python ~/Documents/Projects/RetroUFO/RetroUFO.py
+RetroUFO
 
 #echo 'Updating Thumbnails'
 #cd "~/.config/retroarch/thumbnails/"
