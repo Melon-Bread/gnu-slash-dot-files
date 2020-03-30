@@ -31,4 +31,3 @@ git_arguments = "--rebase --autostash"
 [commands]
 "RetroArch" = "RA-Update.sh"
 
-cleanup = true
